@@ -5,7 +5,9 @@
 
 如下图首先将timer对象存到holder中，然后在adapter中重写onViewRecycled方法，然后将timer取出并调用timer的cancel方法。
 
-[![VO4Ksg.png](https://s2.ax1x.com/2019/06/19/VO4Ksg.png)](https://imgchr.com/i/VO4Ksg)
+![](https://raw.githubusercontent.com/LucasMing/Blog/master/images/timer01.png)
+
+![](https://raw.githubusercontent.com/LucasMing/Blog/master/images/timer02.png)
 
 2、从服务器获取计时时间时，滑动列表出现重新计时的问题  
 
